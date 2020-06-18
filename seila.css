@@ -33,7 +33,7 @@
         --Unread: '✨';
         --Options: '🔧';
         --Channel: '💬';
-        --Game: "👾";
+        --Gameactivity: "👾";
         --Voice: "🔊";
         --Micro: "🎙️";
         --Headset: "🎧";
@@ -2360,7 +2360,7 @@ button[role*="switch"]:after {
 }
 
 #GameActivityToggleBtn[aria-checked=true]:after, button[role*="switch"][aria-checked=false]:not(#GameActivityToggleBtn):after {
-        background: var(--Online) !important;
+        background: var(--Gameactivity) !important;
 }
 
 .item-PXvHYJ[style*="color: rgb(240, 71, 71)"], .strikethrough-1n4ekb, .strikethrough-3Wiitd {
